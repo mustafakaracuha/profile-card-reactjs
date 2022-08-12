@@ -7,11 +7,11 @@
 
 ### Live
 
-🔗 https://ui-design-dayr-profilecard.vercel.app/
+🔗 https://ui-design-day4-profilecard.vercel.app/
 
 ### Installation
 
-🔗 git clone https://github.com/mustafakaracuha/UIDesignDay3-profile-card
+🔗 git clone https://github.com/mustafakaracuha/UIDesignDay4-profile-card
 <br/>
 <br/>
 ⚡️  npm install <br/>

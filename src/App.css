@@ -39,27 +39,28 @@ body {
 
 .box {
   width: 22%;
-  height: 400px;
+  height: 410px;
   background: white;
   align-items: normal;
   justify-content: center;
   margin-bottom: 200px;
-  border-radius: 20px;
-  box-shadow: #6583a941 0px 7px 29px 0px;
+  border-radius: 15px;
+  box-shadow: #ccd4ec 0px 7px 29px 0px;
   text-align: center;
   overflow: hidden;
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   background: red;
   background-image: url("./assets/img/profile.jpg");
   background-size: cover;
   border-radius: 100%;
-  margin-top: 60px;
-  margin-left: 145px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  display: inline-block;
+  margin-left: -15px;
   border: 11px solid #ebf2fb;
 }
 
@@ -69,47 +70,46 @@ h1 {
   margin-bottom: -5px;
 }
 
-.box p{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-  color: rgb(126, 126, 126);
+.box p {
+  font-family: muli;
+  color: rgb(90, 90, 90);
 }
 
 .actionBox {
-width: 100%;
-display: flex;
-align-items: normal;
-padding-top: 20px;
-justify-content: center;
-height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: normal;
+  padding-top: 20px;
+  justify-content: center;
+  height: 150px;
 }
 
-.actionBox button{
-width: 100px;
-height: 65px;
-margin-right: 10px;
-margin-left: 10px;
-background: transparent;
-border-radius: 15px;
-border: 1px solid #c6d4e6;
-outline: none;
-cursor: pointer;
-align-items: center;
-justify-content: center;
-display: block;
-font-family: muli;
-transition: 0.5s;
+.actionBox button {
+  width: 100px;
+  height: 65px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: transparent;
+  border-radius: 15px;
+  border: 1px solid #c6d4e6;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  font-family: muli;
+  transition: 0.5s;
 }
 
 .actionBox button:hover {
   border: 1px solid #a645a8;
 }
 
-
 button p {
-font-family: muli;
-margin: 0;
-margin-top: 3px;
-color: rgb(0, 0, 0) !important;
+  font-family: muli;
+  margin: 0;
+  margin-top: 3px;
+  color: rgb(0, 0, 0) !important;
 }
 
 .designBy {
@@ -122,6 +122,7 @@ color: rgb(0, 0, 0) !important;
   right: 0;
   bottom: 0;
   color: #b7b7d6;
+  display: none;
 }
 
 .designBy p {
@@ -139,8 +140,72 @@ color: rgb(0, 0, 0) !important;
   font-family: day !important;
 }
 
-@media screen and (max-width: 992px) {
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  width: 240px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+  top: 375px !important;
+  left: 1140px !important;
+  padding-left: 10px !important;
+  background: #160f36 !important;
+  padding: 10px !important;
+  color: rgb(230, 230, 230) !important;
 }
 
-@media screen and (max-width: 480px) {
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-family: muli !important;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+  padding: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  transition: 0.3s ease-in-out;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background: #2d2559 !important;
+}
+
+
+@media screen and (max-width: 992px) {
+  .box {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    background: white;
+    box-shadow: none;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: -20px;
+    margin-bottom: 0px;
+  }
+
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 22px !important;
+  }
+  
+  .designBy h1 {
+    font-family: muli;
+    font-size: 20px !important;
+  }
+
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    top: 35px !important;
+    left: 5px !important;
+    padding-left: 10px !important;
+    background: #160f36 !important;
+    padding: 10px !important;
+    color: rgb(230, 230, 230) !important;
+  }
 }
