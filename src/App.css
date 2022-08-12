@@ -151,7 +151,32 @@ button p {
   color: rgb(230, 230, 230) !important;
 }
 
+.css-177ic5c {
+  width: 240px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+  top: 375px !important;
+  left: 1140px !important;
+  padding-left: 10px !important;
+  background: #160f36 !important;
+  padding: 10px !important;
+  color: rgb(230, 230, 230) !important;
+}
+
+
+
 .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-family: muli !important;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+  padding: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  transition: 0.3s ease-in-out;
+}
+
+.css-1km1ehz {
   font-family: muli !important;
   font-size: 14px !important;
   margin-bottom: 5px !important;
