@@ -1,0 +1,146 @@
+@font-face {
+  font-family: muli;
+  src: url(./assets/fonts/Muli-SemiBold.woff);
+}
+@font-face {
+  font-family: muliLight;
+  src: url(./assets/fonts/Muli-Light.woff);
+}
+@font-face {
+  font-family: day;
+  src: url(./assets/fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: mk;
+  src: url(./assets/fonts/Bilal-d99MX.otf);
+}
+
+@font-face {
+  font-family: merriweather;
+  src: url(./assets/fonts/Merriweather-Bold.ttf);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ebf2fb;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.box {
+  width: 22%;
+  height: 400px;
+  background: white;
+  align-items: normal;
+  justify-content: center;
+  margin-bottom: 200px;
+  border-radius: 20px;
+  box-shadow: #6583a941 0px 7px 29px 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background: red;
+  background-image: url("./assets/img/profile.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 60px;
+  margin-left: 145px;
+  margin-bottom: 20px;
+  border: 11px solid #ebf2fb;
+}
+
+h1 {
+  font-family: merriweather;
+  font-size: 27px !important;
+  margin-bottom: -5px;
+}
+
+.box p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  color: rgb(126, 126, 126);
+}
+
+.actionBox {
+width: 100%;
+display: flex;
+align-items: normal;
+padding-top: 20px;
+justify-content: center;
+height: 150px;
+}
+
+.actionBox button{
+width: 100px;
+height: 65px;
+margin-right: 10px;
+margin-left: 10px;
+background: transparent;
+border-radius: 15px;
+border: 1px solid #c6d4e6;
+outline: none;
+cursor: pointer;
+align-items: center;
+justify-content: center;
+display: block;
+font-family: muli;
+transition: 0.5s;
+}
+
+.actionBox button:hover {
+  border: 1px solid #a645a8;
+}
+
+
+button p {
+font-family: muli;
+margin: 0;
+margin-top: 3px;
+color: rgb(0, 0, 0) !important;
+}
+
+.designBy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #b7b7d6;
+}
+
+.designBy p {
+  width: 100% !important;
+  font-family: mk;
+  font-size: 35px !important;
+}
+
+.designBy h1 {
+  font-family: muli;
+  font-size: 20px !important;
+}
+
+.day {
+  font-family: day !important;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 480px) {
+}
