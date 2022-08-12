@@ -235,4 +235,17 @@ button p {
     padding: 10px !important;
     color: rgb(230, 230, 230) !important;
   }
+  
+  .css-177ic5c {
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 20px !important;
+    top: 35px !important;
+    left: 5px !important;
+    padding-left: 10px !important;
+    background: #160f36 !important;
+    padding: 10px !important;
+    color: rgb(230, 230, 230) !important;
+  }
 }
